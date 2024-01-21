@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(somaiya.jpg);
+    
+}
+img{
+    opacity: 0.75;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.head {
+    margin-bottom: 30px;
+}
+
+table p {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.lab {
+    padding: 5px;
+    background-color:aqua;
+    color: black;
+}
+.lecture{
+    background-color: blue;
+    color: white;
+
+}
+.TUT{
+    background-color: rgb(40, 40, 87);
+    color: white
+}
+table th,.lunch{
+    background-color: black;
+    color: white;
+}

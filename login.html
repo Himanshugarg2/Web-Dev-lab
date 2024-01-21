@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        form h1{
+            color:rgb(5, 99, 5);
+        }
+        
+       
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+            
+            
+        }
+
+        .form {
+            text-align: center;
+            border: 1px solid black;
+            padding: 200px , 10px;
+            border-radius: 35px;
+            width: 400px;
+            height: 400px;
+            
+        }
+
+       
+
+        input {
+            width: 70%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 15px;
+            font-size: 18px;
+        
+        }
+        
+      
+
+        
+
+        .btn {
+            width: 150px; /* Adjust the width as needed */
+            margin-bottom: 30px;
+            margin-top: 15px;
+            margin: 10px;
+            background-color: green;
+            color: white;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form target="_blank" action="">
+            <h1 class="input">Login</h1>
+            <input type="email" name="email-id" placeholder="Enter your email" required="required" class="input">
+            <input type="password" name="password" placeholder="Enter your password" required="required" class="input">
+            <br>
+            <input type="submit" class="btn " >
+            <input type="reset" class="btn " >
+            <br>
+            <br>
+            
+            <a href="forgot.html" class="link">Forgot your password?</a>
+            <br>
+            <br>
+            <a href="signup.html" class="link">Don't have an account? Register</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    text-align: center;
+    height: 500px;
+   
+   
+    border: 1px solid black;
+    padding: 14px;
+    border-radius: 45px;
+    width: 400px;
+}
+.button{
+    padding: 12px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+input{
+    padding: 10px;
+    
+    width: 260px;
+    margin: 10px;
+}
+    
+h1{
+    color: green;
+}
+
+.heading{
+    text-align: center;
+}
